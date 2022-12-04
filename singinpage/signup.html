@@ -1,0 +1,378 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple TV+</title>
+  <link rel="icon" href="https://tv.apple.com/assets/brands/TV_App_Logo-d343000dfd3ca454ca8705a7aa7dcf4f.png">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+    integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <style>
+    * {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: rgb(231 230 234);
+    }
+
+    #sing {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      width: 50%;
+      height: 650px;
+      /* border: 1px solid red; */
+      margin: auto;
+      box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+      margin-top: 40px;
+      background-color: white;
+      border-radius: 20px;
+    }
+
+    #sing h1 {
+      margin-top: 55px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    #first {
+      width: 80%;
+      height: 70px;
+      margin-left: 105px;
+      border-radius: 10px;
+      /* font-size: 30px; */
+      font-weight: 100;
+    }
+
+    /* #first:hover{
+    background-color: aqua;
+    color: black;
+  } */
+    #poto {
+      position: absolute;
+      width: 38px;
+      height: 35px;
+      margin-left: 686px;
+      margin-top: -96px;
+
+    }
+
+    #second {
+      width: 80%;
+      height: 70px;
+      margin-left: 105px;
+      margin-top: 40px;
+      border-radius: 10px;
+      /* font-size: 30px; */
+      /* font-weight: 400; */
+
+    }
+
+    /* #second:hover{
+    background-color: darkmagenta;
+    color: gray;
+  } */
+    #third {
+      width: 80%;
+      height: 70px;
+      margin-left: 105px;
+      margin-top: 40px;
+      border-radius: 10px;
+      font-size: 10px;
+      font-weight: 400;
+    }
+
+    /* #third:hover{
+    background-color: skyblue;
+    color: bisque;
+  } */
+    #fourth {
+      width: 80%;
+      height: 70px;
+      margin-left: 105px;
+      margin-top: 40px;
+      border-radius: 10px;
+      /* font-size: 30px; */
+    }
+
+    /* #fourth:hover{
+  background-color:brown;
+  color: black;
+} */
+
+    #lower {
+      margin-left: 105px;
+      color: gray;
+      margin-top: 25px;
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    #fifth {
+      width: 80%;
+      height: 70px;
+      margin-left: 105px;
+      margin-top: 10px;
+      border-radius: 10px;
+      font-size: 17px;
+      /* margin-top: -0px; */
+      font-weight: 400;
+    }
+
+    /* #fifth:hover{
+  background-color: royalblue;
+  color: black;
+} */
+
+    #sixth {
+      width: 25px;
+      height: 50px;
+      margin-left: 110px;
+    }
+
+    #upper {
+      margin-left: 140px;
+      margin-top: -40px;
+      font-size: 15px;
+      font-weight: 400;
+    }
+
+    #post {
+      margin-left: 140px;
+      font-weight: 400;
+    }
+
+    #seven {
+      /* font-size: 20px; */
+      border-radius: 10px;
+      margin-left: 250px;
+      margin-top: -33px;
+      border: none;
+      width: 100px;
+      color: #0071e3;
+    }
+
+    #mt {
+      border: 1px solid gray;
+      width: 80%;
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    #newa {
+      margin-left: 80PX;
+      font-size: 14PX;
+      margin-top: 10PX;
+      color: gray;
+    }
+
+    #last {
+      margin-left: 405px;
+      color: #0071e3;
+      font-size: 13PX;
+      margin-top: -41PX;
+    }
+
+    #line {
+      border: 1px solid gray;
+
+    }
+
+    #sub {
+      font-size: 17px;
+      min-width: 28px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-radius: 980px;
+      background: #0071e3;
+      color: #fff;
+      border: none;
+      margin-left: 84%;
+      margin-top: 7px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    #inputDiv {
+      /* border: 1px solid red; */
+      width: 90%;
+    }
+
+    #inputDiv input {
+      border: 1px solid rgb(165, 164, 164);
+      font-size: 20px;
+      height: 8%;
+      padding: 12px;
+    }
+
+    @media all and (min-width:480px) and (max-width:720px) {
+      * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: rgb(231 230 234);
+      }
+
+      #sing {
+
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      #sing h1 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      #first {
+        width: 80%;
+        height: 70px;
+      }
+
+      #poto {
+        position: absolute;
+        right: 15px;
+        top: 110px;
+      }
+
+      #second {
+        margin-top: 10px;
+      }
+
+      #third {
+        margin-top: 10px;
+        border-radius: 10px;
+        font-weight: 300;
+      }
+
+      #fourth {
+        margin-top: 10px;
+      }
+
+      #lower {
+        margin-top: 10px;
+        margin-left: 110px;
+      }
+
+      #fifth {
+        margin-top: 0px;
+      }
+
+      #sixth {
+        margin-top: 15px;
+
+      }
+
+      #upper {
+        margin-top: -28px;
+        font-size: 15px;
+        font-weight: 400;
+      }
+
+      #seven {
+        margin-top: -36px;
+      }
+
+      #mt {
+        margin-top: 15px;
+      }
+
+      #newa {
+        margin-left: 60PX;
+        font-size: 10PX;
+      }
+
+      #last {
+        margin-left: 300px;
+        color: #0071e3;
+        font-size: 10PX;
+        margin-top: -29PX;
+      }
+
+      #line {
+        margin-top: -5px;
+        background-color: gray;
+
+      }
+
+      #sub {
+        margin-left: 520px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="sing">
+    <form>
+      <h1> Create Apple ID</h1>
+      <img id="poto"
+        src="data:image/png;base64,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" />
+
+      <div id="inputDiv">
+
+        <input id="first" type="text" placeholder="Firstname" required />
+        <input id="second" type="text" placeholder="Surname" required />
+        <input id="third" type="date" placeholder="Birthday" required>
+        <input id="fourth" type="email" placeholder="name@exmaple.com" required />
+        <h2 id="lower"> your email will be your Apple id</h2>
+        <input id="fifth" type="password" placeholder="password" minlength="8" required />
+        <input id="sixth" type="checkbox" required />
+        <h3 id="upper"> Agree to term condition</h3>
+      </div>
+
+      <p id="post">contry/Region:</p>
+      <select id="seven">
+        <option> Afghanistan </option>
+        <option>Australia</option>
+        <option>Austria</option>
+        <option>Butan</option>
+        <option>Brajil</option>
+        <option>Canada </option>
+        <option>Central African Republic </option>
+        <option>China </option>
+        <option>Colombia</option>
+        <option>Cuba</option>
+        <option>United States of America</option>
+        <option>France</option>
+        <option>Iceland</option>
+        <option>India</option>
+        <option>Indonesia</option>
+        <option>Iran</option>
+        <option>Iraq</option>
+        <option>Japan </option>
+        <option>Malaysia </option>
+        <option>Mexico</option>
+        <option>Nepal</option>
+        <option>New Zealand</option>
+        <option>Pakistan</option>
+        <option>Sri Lanka</option>
+
+
+      </select>
+      <div id="mt"></div>
+      <h5 id="newa">By countinuing,you acknowledge that you to the </h5>
+      <h6 id="last">Apple Media Service Team & condition</h6>
+      <div id="line"> </div>
+      <input type="submit" value="Continue" id="sub" />
+
+  </div>
+  </form>
+</body>
+
+</html>
+<script src="./signup.js"></script>

@@ -1,0 +1,351 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+#mankindP{
+    margin-left: 16px;
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+#mostPopularNow>div {
+    border: 1px solid white;
+}
+div>img {
+    border-radius: 10px;
+}
+#watchEntireSeasons>div>img {
+    border-radius: 10px;
+}
+#latestOriginal>p {
+    margin-left: 16px;
+    margin-top: 4px;
+}
+#latestOriginal>div>img {
+    /* height: 140px;
+    width: 250px; */
+    border-radius: 10px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+#lstP1 {
+    margin-top: 2px;
+    font-size: 14px;
+}
+#lstP2 {
+    margin-top: 2px;
+    font-size: 16px;
+}
+#lstP3 {
+     margin-top: 2px;
+    font-size: 14px;
+    color: grey;
+}
+
+#comingSoon>div>img {
+    /* height: 180px;
+    width: 312px; */
+    border-radius: 10px;
+    /* margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+#baseball>div>img {
+    /* height: 180px;
+    width: 312px; */
+    border-radius: 10px;
+    /* margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+#main1 {
+    border: 1px solid white;
+    /* height: 210px; */
+}
+
+#main1>h3 {
+    margin-left: 16px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+#screen>div>img {
+    border-radius: 10px;
+}
+
+hr {
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 20px;
+}
+
+
+#extraordinary_people>p {
+    margin-left: 16px;
+    margin-top: 4px;
+
+}
+
+#fstP {
+    margin-top: 2px;
+    font-size: 14px;
+    color: grey;
+}
+
+#secP {
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+#trdP {
+    margin-top: 2px;
+    font-size: 14px;
+    color: grey;
+}
+
+#creaturesCritters>div>img {
+    border-radius: 10px;
+}
+
+#main2>h3 {
+    margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#extraordinary_people>div>img {
+    border-radius: 10px;
+}
+
+
+.drama>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.comedySec {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+.comedySec>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feature {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+.feature>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.singleP {
+    margin-left: 16px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+#coda>h3 {
+    margin-left: 16px;
+    margin-top: 3px;
+}
+
+.codaOscar {
+    border: 1px solid white;
+    height: 198px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+
+.codaOscar>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nonFic {
+    border: 1px solid white;
+    height: 198px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+
+.nonFic>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.allNonfictionSeries {
+    border: 1px solid white;
+    height: 150px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 11px;
+    margin-top: -15px;
+}
+
+.allNonfictionSeries>div>img {
+    height: 140px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.kidsAndfamily{
+    border: 1px solid white;
+    height: 198px;
+    /* width: 98%; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-top: -9px;
+}
+.kidsAndfamily>div>img {
+    height: 180px;
+    width: 312px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#bottomdiv{
+    border: 1px solid black;
+    height: 810px;
+    margin-top: 25px;
+    background-color: black;
+}
+#childbottomdiv{
+    border: 1px solid black;
+    height: 750px;
+    width: 70%;
+    text-align:center;
+    margin:50px auto;
+    color: white;
+    background-color: black;
+    
+}
+#btmlogo{
+    height: 70px;
+    width: 70px;
+}
+#btmdevice{
+    display: flex;
+    justify-content: space-around;
+}
+#btmdevice>div>img{
+    height: 80px;
+    width: 120px;
+    margin-top: 30px;
+
+}
+#btmdevice>div>img+p{
+    font-size: 15px;
+    margin-top: 2px;
+    font-weight:600 ;
+}
+#btmdevice2{
+    display: flex;
+    justify-content: space-around;
+}
+#childbottomdiv2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#childbottomdiv2>div{
+    width: 200px;
+}
+#childbottomdiv2>div>img{
+    height: 60px;
+    width: 100px;
+    margin-top: 30px;
+
+}
+#childbottomdiv2>div>img+p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight:600 ;
+}
+
+#childbottomdiv2>div>p{
+    margin: 1%;
+    font-size: 12px;
+}
+#lastP{
+    font-size: 12px;
+    margin-top: 20px;
+}
+#childbottomdiv>a{
+    color: rgba(0, 162, 255, 0.747);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/* start of sifi section */
+
+#sifiSection {
+    width: 100%;
+}
+#sifiSection>img {
+    width: 100%;
+    border-radius: none;
+}
+#sifiInnerImages>.owl-nav{
+    display: none;
+}
+#sifiInnerImages{
+    position: absolute;
+    top: 435vh;
+}
+#sifiSection>.sifiDes{
+    position: absolute;
+    top: 419%;
+    color: white;
+    left: 3%;
+}
+#sifiSection>.sifiDes>p:nth-child(1) {
+    font-size: 12px;
+    opacity: 0.8;
+}
+#sifiText{
+    color: white;
+    font-size: 13px;
+}

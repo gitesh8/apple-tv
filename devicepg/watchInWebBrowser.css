@@ -1,0 +1,262 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+text-decoration: none;
+}
+.nav{
+    display:flex;;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   background-color: #333333;
+}
+.nav>a{
+    margin:15px 20px;
+    font-size: 12px;
+    color:rgb(151, 148, 148);
+}
+.nav>a:hover{
+       color: rgb(226, 219, 219);
+       text-decoration: none;
+}
+.fa-apple{
+    margin: 0px 30px 0px 0px;
+    font-size: 18px;
+    color: rgb(151, 148, 148);;
+}
+.fa-apple:hover{
+    color: white;
+}
+
+ .fa-magnifying-glass{
+    margin: 0px 20px 0px 20px;
+    color: rgb(151, 148, 148);;
+ }
+ .fa-magnifying-glass:hover{
+    color: white;
+ }
+ .fa-bag-shopping{
+    color:rgb(151, 148, 148);
+    margin: 0px 20px 0px 20px;
+}
+.fa-bag-shopping:hover{
+    color: white;
+}
+.display{
+    width:70%;
+    margin-left: 10%;
+}
+.display>div:first-child{
+    display: flex;
+   width: 100%;
+}
+.display>div>a:nth-child(2){
+   margin: 20px 0px 10px 40%;
+   font-size: 15px;
+   color: #333333;
+   text-decoration: none;
+}
+.display>div>a:nth-child(2):hover{
+  color: #0070c9;
+  text-decoration: underline;
+}
+.display>div>a:nth-child(3):hover{
+  color: #0070c9;
+  text-decoration: underline;
+}
+.display>div>a:nth-child(3){
+   margin: 20px 0px 20px 10px;
+   font-size: 15px;
+   color: #333333;
+   text-decoration: none;
+}
+.display>div>p:first-child {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 0%;
+    width: 300px;
+
+}
+.display>hr+p{
+color: #0070c9;
+font-size: 20px;
+margin: 30px 0px 10px 150px;
+}
+.display>hr+p:hover{
+     text-decoration: underline;
+}
+.display>.watch{
+font-size: 30px;
+font-weight: bold;
+margin: 0px 0px 20px 150px ;
+}
+.display>img{
+width: 573px;
+height: 341px;
+margin: 0px 130px;
+}
+.Hr{
+margin-left: 150px;
+}
+img+p{
+ margin: 20px 0px 20px  130px;
+}
+hr+h1{
+  margin-left: 130px;
+  margin-top: 20px;
+}
+p{
+margin: 5px 0px 10px 130px ;
+}
+#small{
+font-size: 10px;
+margin-bottom: 50px;
+margin-top: 0px;
+}
+.helpful{
+display: flex;
+width:400px;
+margin: 15px;
+}
+.helpful>div{
+display: flex;
+justify-content: center;
+align-items: center;
+width:250px;
+height: 30px;
+ font-size: 14px;
+ font-weight: bold;
+color: #0070c9;
+border: 1px solid #0070c9;
+margin: 0px 10px;
+border-radius: 5px;
+} 
+.helpful>div:hover{
+background-color: #0070c9;
+color: white;
+}
+.scroll{
+display: flex;
+margin-bottom:35px;
+}
+.previous>p:nth-child(1){
+position: absolute;
+font-size: 40px;
+color:#0070c9 ;
+margin-left: 100px;
+margin-top: -10px;
+}
+.previous>p:nth-child(2){
+margin-left: 130px;
+font-size: 18px;
+font-weight: bold;
+color:gray;
+}
+.previous>p:nth-child(3){
+margin-left: 130px;
+margin-top: 5px;
+font-size: 18px;
+font-weight: bold;
+color:#0070c9 ;
+}
+.previous>p:nth-child(3):hover{
+    text-decoration: underline;
+}
+.footer{
+display: grid;
+grid-template-columns: 100%;
+width: 100%;
+margin-left: 0px;
+margin-top: 0px;
+background-color:#ececec;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+.footer>hr{
+margin: 10px 120px ;
+}
+.footer>div:first-child{
+display: flex;
+margin: 20px 0px 20px 130px;
+justify-content:flex-start ;
+}
+.footer>div:first-child>a{
+margin: 0px 15px;
+font-size: 14px;
+}
+.footer>div:last-child{
+display: flex;
+margin-top: 0px;
+}
+.footer>div:last-child>a{
+font-size: 12px;
+width: 300px;
+margin: 5px;
+}
+.footer>div:last-child>p{
+ width: 900px;
+font-size: 10px;
+color: #333333;
+}
+.footer>div:last-child>a:last-child{
+margin-left: 350px;
+color: #333333;
+}
+.previous{
+width: 200px;
+margin: 20px 50px;
+}
+.previous>p:nth-child(1){
+position: absolute;
+font-size: 40px;
+font-weight: bold;
+color:#0070c9 ;
+margin-left: 125px;
+margin-top: -10px;
+}
+.previous>p:nth-child(2){
+margin-left: 160px;
+font-size: 18px;
+font-weight: bold;
+color:gray;
+}
+.previous>a{
+margin-left: 160px;
+font-size: 18px;
+font-weight: bold;
+color:#0070c9 ;
+text-decoration: 0%;
+}
+.previous>a:hover{
+    text-decoration: underline;
+}
+#fapple >.fa-apple:hover{
+  color: #333333;
+}
+.line3{
+display: flex;
+}
+
+a{
+margin-bottom: 20px;
+margin-left: 130px;
+color: #0070c9;
+
+}
+a:hover{
+text-decoration: underline;
+}
+p>a{
+margin-left: 1px;
+}
+
+@media all and (min-width:120px) and (max-width:840px){
+.nav>a{
+    display: none;
+}
+}
